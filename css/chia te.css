@@ -1,0 +1,28 @@
+img {
+  width: 100%;
+  max: width 1920px;
+}
+body {
+  background-color: #f5eee2 !important;
+  background-position: center;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #f5eee2 !important;
+}
+.navbar-brand img {
+  width: 100px;
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: #b58e4e;
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
