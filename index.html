@@ -16,41 +16,48 @@
       crossorigin="anonymous"
     />
     <link href="./css/chia te.css" rel="stylesheet" />
+    <style type="text/css"></style>
   </head>
   <body>
+    <img src="./img/login.png" />
     <!---導覽列-->
     <!---客製化css，改背景色從網頁的檢查原始碼中找到.bg-body-tertiary {
   --bs-bg-opacity: 1;background-color: #f5eee2 !important;}
     讓導覽列文字可以滑過去變色，也從檢查原始碼裡改-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- Container wrapper -->
       <div class="container-fluid">
+        <!-- Toggle button -->
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarCenteredExample"
+          aria-controls="navbarCenteredExample"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+
+        <!-- Collapsible wrapper -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCenteredExample"
+        >
+          <!-- Left links -->
+          <ul class="navbar-nav mb-20 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >最新消息</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">最新消息</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">新品上市</a>
             </li>
+            <br/>
             <li class="nav-item">
               <a class="nav-link" href="#">佳德商品</a>
             </li>
-            <a class="navbar-brand" href="#"
-              ><img src="./img/nav_logo.png"
-            /></a>
+            <br/>
             <li class="nav-item">
               <a class="nav-link" href="#">商品訂購</a>
             </li>
@@ -60,9 +67,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#">聯絡我們</a>
             </li>
-          </ul>
+          <!-- Left links -->
         </div>
+        <!-- Collapsible wrapper -->
       </div>
+      <!-- Container wrapper -->
     </nav>
     <!---carouse輪播功能，從外掛語法中的img裡改圖片連結，如果要做多個輪播的話從
                 外掛語法裡的bottom裡將數字做更改--->
@@ -103,5 +112,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <img src="./img/products.png" />
+    <img src="./img/footer.png" />
   </body>
 </html>
